@@ -1,5 +1,4 @@
 # motion_planning_and_obstacle_avoidance
-# motion_planning_and_obstacle_avoidance
 **Dependencies**
 - ROS MELODIC
 - UNBUNTU 18.04
