@@ -42,3 +42,9 @@ change to publishing topic for initial position and /move_base_simple/goal accor
 
 ![image](https://user-images.githubusercontent.com/63865577/151713842-21cf9263-746d-4e89-a06a-8c678661955f.png)
 
+
+https://user-images.githubusercontent.com/63865577/151714319-16acddc6-ebbf-43a1-922b-8ee04e7cb63c.mp4
+
+
+https://user-images.githubusercontent.com/63865577/151714335-34c15175-b275-4dab-99c6-c373c55767fc.mp4
+
