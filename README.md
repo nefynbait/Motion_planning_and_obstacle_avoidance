@@ -41,4 +41,5 @@ Alternatively, the move_base for tb3_1 can also be launched. Code for launching 
 wait for tuw graph to generate and then right click on 2D Pose Estimate and click tool properties
 change to publishing topic for initial position and /move_base_simple/goal accordingly for each robot. For example write tb3_0/initialpose and tb3_0/move_base_simple/goal for tb3_0 robot.
 
+![image](https://user-images.githubusercontent.com/63865577/151713842-21cf9263-746d-4e89-a06a-8c678661955f.png)
 
