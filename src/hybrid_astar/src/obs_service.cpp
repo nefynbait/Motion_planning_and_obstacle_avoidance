@@ -156,7 +156,7 @@ plistener->lookupTransform("/map", "/tb3_1/base_footprint", ros::Time(0), transf
 
 	if((value2<0) && (v_r1<0))
 	{status=false;
-	slope=(v_obs_y/v_obs_x);
+	/*slope=(v_obs_y/v_obs_x);
 	inter=y-slope*x;
 	inter1=inter+2/cos(atan2(v_obs_y,v_obs_x));
 	inter2=inter-2/cos(atan2(v_obs_y,v_obs_x));
@@ -172,7 +172,7 @@ plistener->lookupTransform("/map", "/tb3_1/base_footprint", ros::Time(0), transf
 	else
 	{cout<<"move_right"<<endl;
 	result = "move_right";}
-	check=req.check;
+	check=req.check;*/
 		
 	}
 }
