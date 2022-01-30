@@ -1,0 +1,2 @@
+set(hybrid_astar_MESSAGE_FILES "/home/souvik/turtlebot/src/hybrid_astar/msg/Test.msg;/home/souvik/turtlebot/src/hybrid_astar/msg/TestSummary.msg;/home/souvik/turtlebot/src/hybrid_astar/msg/PathTracking.msg;/home/souvik/turtlebot/src/hybrid_astar/msg/Tracking.msg")
+set(hybrid_astar_SERVICE_FILES "/home/souvik/turtlebot/src/hybrid_astar/srv/GlobalPath.srv;/home/souvik/turtlebot/src/hybrid_astar/srv/MonteCarloSim.srv;/home/souvik/turtlebot/src/hybrid_astar/srv/obs.srv")

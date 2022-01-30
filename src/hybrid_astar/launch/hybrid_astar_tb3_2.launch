@@ -1,0 +1,3 @@
+<launch>
+<node pkg="hybrid_astar" type="hybrid_astar" name="hybrid_astar" output="screen" />
+</launch>

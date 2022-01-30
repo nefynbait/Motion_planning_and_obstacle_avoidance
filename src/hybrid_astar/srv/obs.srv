@@ -1,0 +1,8 @@
+float64 x_r
+float64 y_r
+float64 r_r
+float64 theta1
+bool check
+---
+string result
+bool obstacles

@@ -1,0 +1,51 @@
+<launch>
+	<arg name="debug" default="false"/>
+	<arg name="gui" default="true"/>
+	<arg name="pause" default="false"/>
+	<arg name="world" value="$(find hybrid_astar)/world/hospital_04.world"/>
+
+	<include file="$(find gazebo_ros)/launch/empty_world.launch">
+		<arg name="world_name" default="$(arg world)"/>
+		<arg name="debug" value="$(arg debug)"/>
+		<arg name="gui" value="$(arg gui)"/>
+		<arg name="paused" value="$(arg pause)"/>
+		<arg name="use_sim_time" value="true"/>
+	</include> 
+
+  <!-- <param name="/use_sim_time" value="true" />
+
+
+  <node name="gazebo" pkg="gazebo_ros" type="gazebo" 
+   args="$(find hybrid_astar)/world/empty_wall.world" respawn="false" output="screen" /> -->
+
+
+ <!-- <node name="gazebo_gui" pkg="gazebo" type="gui" respawn="false" output="screen"/>-->
+
+
+<group ns ="robot1">
+ 	<param name = "tf_prefix" value="robot1_tf"/>
+	<include file="$(find hybrid_astar)/launch/one_robot.launch">
+		<arg name="x" default="-17.000000"/>
+		<arg name="y" default="0"/>
+		<arg name="z" default="0.025893"/>
+		<arg name="yaw" default="0.000000"/>
+		<arg name="robot_name" value="robot1"/>
+		<remap from ="/cmd_vel" to = "/robot1/cmd_vel"/>
+
+	</include>
+</group>
+
+<group ns ="robot2">
+ 	<param name = "tf_prefix" value="robot2_tf"/>
+	<include file="$(find hybrid_astar)/launch/one_robot.launch">
+		<arg name="x" default="-12.000000"/>
+		<arg name="y" default="2"/>
+		<arg name="z" default="0.025893"/>
+		<arg name="yaw" default="0.000000"/>
+		<arg name="robot_name" value="robot2"/>
+		<remap from ="/cmd_vel" to = "/robot2/cmd_vel"/>
+
+	</include>
+</group>
+</launch>
+

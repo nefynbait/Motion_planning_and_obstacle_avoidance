@@ -1,0 +1,5 @@
+<launch>
+	<include file="$(find ridgeback_navigation)/launch/include/move_base.launch">
+<remap from = "map" to "/map">
+</include>
+</launch>

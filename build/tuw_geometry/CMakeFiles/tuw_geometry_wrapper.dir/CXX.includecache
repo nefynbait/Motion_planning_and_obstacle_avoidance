@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/souvik/turtlebot/src/tuw_geometry/./include/tuw_geometry/point2d.h
+memory
+-
+opencv2/core/core.hpp
+-
+tuw_geometry/utils.h
+-
+
+/home/souvik/turtlebot/src/tuw_geometry/./include/tuw_geometry/pose2d.h
+memory
+-
+opencv2/core/core.hpp
+-
+tuw_geometry/point2d.h
+-
+
+/home/souvik/turtlebot/src/tuw_geometry/./include/tuw_geometry/utils.h
+string
+-
+opencv2/core/mat.hpp
+-
+opencv2/core/matx.hpp
+-
+
+/home/souvik/turtlebot/src/tuw_geometry/src/tuw_geometry/tuw_geometry_wrapper.cpp
+boost/python.hpp
+-
+tuw_geometry/point2d.h
+/home/souvik/turtlebot/src/tuw_geometry/src/tuw_geometry/tuw_geometry/point2d.h
+tuw_geometry/pose2d.h
+/home/souvik/turtlebot/src/tuw_geometry/src/tuw_geometry/tuw_geometry/pose2d.h
+

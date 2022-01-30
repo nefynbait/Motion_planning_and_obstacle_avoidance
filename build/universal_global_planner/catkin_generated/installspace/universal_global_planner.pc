@@ -1,0 +1,8 @@
+prefix=/home/souvik/turtlebot/install
+
+Name: universal_global_planner
+Description: Description of universal_global_planner
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: nav_core roscpp rospy std_msgs tf message_runtime
