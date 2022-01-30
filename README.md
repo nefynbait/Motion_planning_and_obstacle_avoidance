@@ -43,7 +43,7 @@ wait for tuw graph to generate and then right click on 2D Pose Estimate and clic
 change to publishing topic for initial position and /move_base_simple/goal accordingly for each robot. For example write tb3_0/initialpose and tb3_0/move_base_simple/goal for tb3_0 robot.
 
 **Important**
-The code by default only stops with response to the obstacle. To activate the code for moving left or right remove the comment in line no. and from file src/hybrid_astar/src/obs_service
+The code by default only stops with response to the obstacle. To activate the code for moving left or right remove the comment in line no.158 and 175 from file src/hybrid_astar/src/obs_service
 
 ![image](https://user-images.githubusercontent.com/63865577/151713842-21cf9263-746d-4e89-a06a-8c678661955f.png)
 
