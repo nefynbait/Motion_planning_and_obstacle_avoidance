@@ -4,7 +4,9 @@ To run the code follow the following steps
 
 Open the terminal in root directory
 >catkin_make
+
 >source devel/setup.bash
+
 >roslaunch hybrid_astar hybrid_astar.launch
 
 open another terminal window in the root directory to run hybrid_astar for another robot
