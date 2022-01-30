@@ -1,21 +1,21 @@
 # motion_planning_and_obstacle_avoidance
 # motion_planning_and_obstacle_avoidance
 **Dependencies**
--ROS MELODIC
--UNBUNTU 18.04
--OPEN MOTION PLANNING LIBRARY(OMPL)
+- ROS MELODIC
+- UNBUNTU 18.04
+- OPEN MOTION PLANNING LIBRARY(OMPL)
 ```
 sudo apt install libompl-dev
 ```
--jsk_recognition_msg
+- jsk_recognition_msg
 ```
 sudo apt-get install ros-melodic-jsk-recognition-msgs
 ```
 **Reference**
--tuw_multi_robot 
+- tuw_multi_robot 
 (https://github.com/tuw-robotics/tuw_multi_robot)
 
--turtlebot3
+- turtlebot3
 (https://github.com/ROBOTIS-GIT/turtlebot3)
 
 To run the code follow the following steps
