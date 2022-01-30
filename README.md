@@ -1,8 +1,6 @@
 # motion_planning_and_obstacle_avoidance
 
-##Code is available in master branch
-
-# motion_planning_and_obstacle_avoidance
+## Code is available in master branch
 **Dependencies**
 - ROS MELODIC
 - UNBUNTU 18.04
@@ -45,5 +43,13 @@ wait for tuw graph to generate and then right click on 2D Pose Estimate and clic
 change to publishing topic for initial position and /move_base_simple/goal accordingly for each robot. For example write tb3_0/initialpose and tb3_0/move_base_simple/goal for tb3_0 robot.
 
 ![image](https://user-images.githubusercontent.com/63865577/151713842-21cf9263-746d-4e89-a06a-8c678661955f.png)
+
+
+
+
+https://user-images.githubusercontent.com/63865577/151714319-16acddc6-ebbf-43a1-922b-8ee04e7cb63c.mp4
+
+
+https://user-images.githubusercontent.com/63865577/151714335-34c15175-b275-4dab-99c6-c373c55767fc.mp4
 
 
