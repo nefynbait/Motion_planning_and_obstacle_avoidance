@@ -4,16 +4,19 @@
 -ROS MELODIC
 -UNBUNTU 18.04
 -OPEN MOTION PLANNING LIBRARY(OMPL)
->sudo apt install libompl-dev
+```
+sudo apt install libompl-dev
+```
 -jsk_recognition_msg
->sudo apt-get install ros-melodic-jsk-recognition-msgs
-
+```
+sudo apt-get install ros-melodic-jsk-recognition-msgs
+```
 **Reference**
--tuw_multi_robot
-https://github.com/tuw-robotics/tuw_multi_robot
+-tuw_multi_robot 
+(https://github.com/tuw-robotics/tuw_multi_robot)
 
 -turtlebot3
-https://github.com/ROBOTIS-GIT/turtlebot3
+(https://github.com/ROBOTIS-GIT/turtlebot3)
 
 To run the code follow the following steps
 
