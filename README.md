@@ -1,5 +1,5 @@
 # motion_planning_and_obstacle_avoidance
-
+Summary of the Project - https://docs.google.com/presentation/d/1e-NAQR7hFBtkMtWECv8oQSTDxtXthNkv1dOKknvWkQs/edit?usp=sharing
 ## Code is available in master branch
 **Dependencies**
 - ROS MELODIC
